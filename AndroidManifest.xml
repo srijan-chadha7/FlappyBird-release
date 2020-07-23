@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:versionCode="1"
+    android:versionName="1.0"
+    android:compileSdkVersion="29"
+    android:compileSdkVersionCodename="10"
+    package="com.first.flappybird"
+    platformBuildVersionCode="29"
+    platformBuildVersionName="10">
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="29" />
+
+    <application
+        android:theme="@ref/0x7f040000"
+        android:label="@ref/0x7f030000"
+        android:icon="@ref/0x7f020000"
+        android:allowBackup="true"
+        android:isGame="true"
+        android:appCategory="0">
+
+        <activity
+            android:label="@ref/0x7f030000"
+            android:name="com.first.flappybird.AndroidLauncher"
+            android:screenOrientation="1"
+            android:configChanges="0x5f0">
+
+            <intent-filter>
+
+                <action
+                    android:name="android.intent.action.MAIN" />
+
+                <category
+                    android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>
